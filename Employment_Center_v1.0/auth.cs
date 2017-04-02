@@ -16,5 +16,20 @@ namespace Employment_Center_v1._0
         {
             InitializeComponent();
         }
+
+        private void regbtn_Click(object sender, EventArgs e)
+        {
+
+            regform regform = new regform();
+            regform.Show();
+            Hide();
+        }
+
+        private void authbtn_Click(object sender, EventArgs e)
+        {
+            genform genform = new genform();
+            genform.Show();
+            Hide();
+        }
     }
 }

@@ -43,6 +43,11 @@ namespace Employment_Center_v1._0
                     myConnection.Close();
                 }
             } 
-        } 
+        }
+
+        private void cancelbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

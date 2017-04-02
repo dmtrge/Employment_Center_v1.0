@@ -122,6 +122,7 @@
             this.cancelbtn.TabIndex = 9;
             this.cancelbtn.Text = "Отмена";
             this.cancelbtn.UseVisualStyleBackColor = true;
+            this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
             // 
             // regform
             // 
@@ -138,7 +139,9 @@
             this.Controls.Add(this.addfiobox);
             this.Controls.Add(this.addpasswdbox);
             this.Controls.Add(this.addloginbox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "regform";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "regform";
             this.ResumeLayout(false);
             this.PerformLayout();

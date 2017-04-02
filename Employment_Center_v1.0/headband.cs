@@ -16,5 +16,12 @@ namespace Employment_Center_v1._0
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            auth auth = new auth();
+            auth.Show();
+            Hide();
+        }
     }
 }
